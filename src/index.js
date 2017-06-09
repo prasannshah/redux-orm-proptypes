@@ -1,7 +1,7 @@
 import forOwn from 'lodash/forOwn';
 
 function validateProp(validator, props, key, modelName) {
-    const result = validator(props, key, modelName, 'prop');
+    const result = validator(props, key, modelName, 'prop', null, 'SECRET_DO_NOT_PASS_THIS_OR_YOU_WILL_BE_FIRED');
     if (result instanceof Error) {
         throw result;
     }
