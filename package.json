@@ -1,6 +1,6 @@
 {
-  "name": "redux-orm-proptypes",
-  "version": "0.1.0",
+  "name": "redux-orm-proptypes-mod",
+  "version": "0.1.4",
   "description": "React PropTypes validation and defaultProps mixin for Redux-ORM Models",
   "main": "lib/index.js",
   "scripts": {
@@ -18,6 +18,9 @@
     "type": "git",
     "url": "https://github.com/tommikaikkonen/redux-orm-proptypes.git"
   },
+  "files": [
+    "lib/index.js"
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel": "^5.8.24",
